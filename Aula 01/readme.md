@@ -137,3 +137,27 @@ print(a) # Retorna 15
 a -= 5
 print(a) # Retorna 10
 ```
+
+### Erros comuns com operadores
+
+#### Divisão por zero
+```python
+2 / 0
+2 / 0.0
+10 // 0
+10 // 0.0
+```
+
+#### Resto da divisão por zero
+```python
+10 % 0
+10 % 0.0
+```
+
+#### Uso incorreto dos operadores
+```python
+3 + * 3
+2 + % 3
+5 - / 2
+2 * * 6
+```
