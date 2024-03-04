@@ -264,3 +264,10 @@ print(not False) # Retorna "True"
 - not
 - and
 - or
+
+### Operadores "não preguiçosos"
+
+Operadores "não preguiçosos" avaliam ambos os valores antes de retornar algo. A diferença é que nos exemplos anteriores, se o primeiro valor resultar em "False", por exemplo, ele não avalia o segundo pois já sabe que o resultado será "False".
+
+- and = &
+- or = |
