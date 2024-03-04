@@ -4,7 +4,7 @@
 
 A função print() é uma função responsável por imprimir valores na tela. Ela pode receber múltiplos argumentos separados por vírgula, e os exibe na tela com um separador definido na chamada, ou o separador padrão " " (espaço)
 
-```
+```python
 # Exemplo simples de uso da função "print()"
 print("Hello world")
 
@@ -28,9 +28,9 @@ Python tem uma série de tipos de dados, alguns deles foram apresentados nesta p
 ### String (str)
 O tipo "string" é usado para representar textos, cadeias de caracteres, e normalmente são acompanhados de aspas simples ou duplas no começo e no final
 
-```
+```python
 "Hello world"
-'Hello world
+'Hello world'
 ```
 
 ### Integer (Inteiro ou int)
@@ -46,18 +46,18 @@ O tipo "boolean" é usado para definir valores que são "True" ou "False".
 ## Atribuição de variáveis
 
 ### Atribuição simples
-```
+```python
 nome = "Murilo"
 ```
 
 ### Atribuição de múltiplas variáveis
-```
+```python
 nome, idade, id = "Fábio", 47, "234"
 print(nome, idade, id) # Retorna 1 2 3
 ```
 
 ### Múltiplas atribuições em um comando
-```
+```python
 a = b = c = 3
 print(a,b,c) # Retorna 3 3 3
 ```
@@ -74,70 +74,66 @@ Um exemplo de uma linguagem fortemente tipada é o C, que você precisa definir 
 ## Operações matemáticas
 
 ### Soma - "+"
-```
+```python
 print(10 + 5) # Retorna 15
 ```
 
 ### Subtração - "-"
-```
+```python
 print(10 - 5) # Retorna 5
 ```
 
 ### Multiplicação - "*"
-```
+```python
 print(10 * 5) # Retorna 50
 ```
 
 ### Divisão - "/"
-```
+```python
 print(10 / 5) # Retorna 2
 print(5 / 2) # Retorna 2.5
 ```
 
 ### Divisão inteira - "//"
 Esse operador matemático funciona de maneira similar ao apresentado anteriormente, porém ele ignora a parte decimal do resultado.
-```
+```python
 print(10 / 5) # Retorna 2
 print(5 / 2) # Retorna 2
 ```
 
 ### Resto da Divisão - "%"
 Esse operador retorna o resto da divisão de dois números.
-```
+```python
 print(10 % 5) # Retorna 0
 print(9 % 2) # Retorna 1
 print(5 % 2) # Retorna 1
 ```
 
 ### Potenciação - "**"
-```
+```python
 print(2**2) # Retorna 4
 print(2**4) # Retorna 16
-print(2**10 # Retorna 1024)
+print(2**10) # Retorna 1024)
 
 # O primeiro número (lado esquerdo do operador) é a base, e o segundo (lado direitor do operador) é o valor do expoente.
 ```
 
-### Operadores de incremento - "+= e ++"
-```
+### Operadores de incremento - "+="
+```python
 a = 5
 print(a) # Retorna 5
 a = a + 5
 print(a) # Retorna 10
 a += 5 
 print(a) # Retorna 15
-a++
-print(a) # Retorna 16
 ```
 
-### Operadores de decremento - "-= e --"
-```
+### Operadores de decremento - "-="
+```python
 a = 20
 print(a) # Retorna 20
 a = a - 5
 print(a) # Retorna 15
 a -= 5
 print(a) # Retorna 10
-a--
-print(a) # Retorna 9
 ```
