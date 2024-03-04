@@ -239,18 +239,20 @@ print("A" > "a") # Retorna "False"
 ## Operadores Lógicos
 
 ### and ("e" lógico)
-Valor 1 | Valor 2 | Resultado
-True | True | True
-False | True | False
-True | False | False
-False | False | False
+| Valor 1 | Valor 2 | Resultado |
+| :---: | :---: | :---: |
+| True | True | True |
+| False | True | False |
+| True | False | False |
+| False | False | False |
 
 ### or ("ou" lógico)
-Valor 1 | Valor 2 | Resultado
-True | True | True
-False | True | True
-True | False | True
-False | False | False
+| Valor 1 | Valor 2 | Resultado |
+| :---: | :---: | :---: |
+| True | True | True |
+| False | True | True |
+| True | False | True |
+| False | False | False |
 
 ### not ("não" lógico)
 ```python
