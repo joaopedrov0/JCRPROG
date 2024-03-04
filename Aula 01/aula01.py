@@ -60,3 +60,12 @@ c1 = 5
 C1 = 10
 print(c1) # Imprime 5
 print(C1) # Imprime 10
+
+# Operações matemáticas
+# +
+# -
+# /
+# *
+# **
+# //
+# %
