@@ -72,6 +72,7 @@ Python é uma linguagem que não é fortemente tipada, isso significa que uma me
 Um exemplo de uma linguagem fortemente tipada é o C, que você precisa definir qual vai ser o tipo de uma variável quando vai iniciá-la.
 
 ## Operações matemáticas
+Operadores que podem ser usados para fazer operações matemáticas, respeitando a ordem de precedência padrão da matemática.
 
 ### Soma - "+"
 ```python
@@ -161,3 +162,77 @@ print(a) # Retorna 10
 5 - / 2
 2 * * 6
 ```
+
+## Operações com strings
+
+### Concatenação
+```python
+ifsp = "Instituto" + "Federal" + "de São Paulo"
+print(ifsp) # Retorna "InstitutoFederalde São Paulo"
+```
+
+```python
+nome = "Fábio"
+mensagem = ", você está na turma de JCRPROG!"
+print(nome + mensagem) # Retorna "Fábio, você está na turma de JCRPROG!"
+```
+
+### Replicação
+```python
+print("abc" * 3) # Retorna "abcabcabc"
+
+print("IFSP" * 4) # Retorna "IFSPIFSPIFSPIFSP"
+
+letra = "Z"
+n = 10
+print(letra * n) # Retorna "ZZZZZZZZZZ"
+```
+
+### Soma e subtração entre strings e números
+Dá erro, não é possível fazer operações de soma ou subtração entre strings e números.
+
+## Comparações numéricas
+
+### Maior e menor - "> e <"
+```python
+print(5 < 10) # Retorna "True"
+print(5 > 10) # Retorna "False"
+print(5 < 5) # Retorna "False"
+print(5 > 5) # Retorna "False"
+```
+
+### Maior ou igual e menor ou igual - ">= e <="
+```python
+print(5 <= 10) # Retorna "True"
+print(5 >= 10) # Retorna "False"
+print(5 <= 5) # Retorna "True"
+print(5 >= 5) # Retorna "True"
+```
+
+### Igual e diferente - "== e !="
+```python
+print(5 == 10) # Retorna "False"
+print(5 != 10) # Retorna "True"
+print(5 == 5) # Retorna "True"
+print(5 != 5) # Retorna "False"
+```
+
+## Comparações com strings
+O Python verifica a igualdade de caractéres através da tabela ASCII, que pode ser consultada [aqui](https://pt.wikipedia.org/wiki/ASCII) caso você queira.
+
+### Igualdade
+```python
+print("a" == "a") # Retorna "True"
+print("a" != "a") # Retorna "False"
+print("a" == "A") # Retorna "False"
+```
+
+### Maior ou menor (Ordem dos caracteres)
+Ordem utilizada: ABCDE...XYZabcde...xyz
+```python
+print("a" < "A") # Retorna "False"
+print("A" < "a") # Retorna "True"
+print("a" < "a") # Retorna "False"
+print("A" > "a") # Retorna "False"
+```
+
