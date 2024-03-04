@@ -259,3 +259,8 @@ print("A" > "a") # Retorna "False"
 print(not True) # Retorna "False"
 print(not False) # Retorna "True"
 ```
+
+### Ordem de precedência (alterável via parênteses)
+- not
+- and
+- or
