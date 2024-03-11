@@ -116,3 +116,76 @@ Devolve `False` quando ambas as premissas são falsas.
 Devolve `True` quando a premissa é falsa.
 Devolve `False` quando a premissa é verdadeira.
 
+## Comandos condicionais
+
+### Estrutura em bloco
+
+Um bloco é um conjunto de comandos agrupados, e em Python eles são separados por indentação.
+
+Observe o exemplo abaixo:
+
+```python
+# Bloco 1
+a = True
+b = False
+if (a == True):
+    # Bloco 2
+    print("O valor de 'a' é verdadeiro")
+if (not b == True & True):
+    # Bloco 3
+    print("O valor de 'b' é falso")
+```
+
+No exemplo acima, o bloco 2 só é executado caso a condição seja verdadeira, assim como no bloco 3.
+
+### Estrutura de uso do `if`
+
+Para usar a estrutura condicional `if`, é importante seguir a sintaxe correta apresentada abaixo
+
+```
+<código anterior>
+
+if <condição>:
+    <bloco de código a ser executado caso a condição seja verdadeira>
+
+<contiuação do código>
+```
+
+Exemplo usando Python
+
+```python
+a = 20
+if (a > 10):
+    print("Maior que 10")
+print("Programa encerrado")
+```
+
+### Estrutura `if else`
+
+Você pode definir uma ação a ser tomada caso a condição não seja satisfeita.
+Observe o exemplo abaixo:
+
+```python
+a = 20
+if (a > 20):
+    print("Maior que 10")
+else:
+    print("Não é maior que 10")
+print("Programa encerrado")
+```
+
+### Estrutura `if elif else`
+
+Além das estruturas apresentadas normalmente, você pode criar mais de dois caminhos na condicional, adicionando caminhos alternativos que também apresentam condições.
+Observe o exemplo abaixo:
+
+```python
+a = 20
+if (a > 20):
+    print("Maior que 10")
+elif (a == 10):
+    print("Igual a 10")
+else:
+    print("Menor que 10")
+print("Programa encerrado")
+```
