@@ -71,3 +71,48 @@ nome = str(input("Digite o seu nome:"))
 
 idade = int(input("Digite a sua idade: "))
 ```
+
+## Expressões relacionais
+
+### Tipo `bool` (boolean)
+
+O tipo `bool` pode ter os valores `True` ou `False`. Costuma ser mais usado como resultados de comparações de relações lógicas.
+
+- Retorna `True` caso a expressão seja verdadeira.
+- Retorna `False` caso a expressão seja falsa.
+
+#### Operadores
+
+- `==` (Igualdade)
+- `!=` (Diferença)
+- `>` (Maior que)
+- `<` (Menor que)
+- `>=` (Maior ou igual a)
+- `<=` (Menor ou igual a)
+
+
+## Expressões lógicas
+
+Usado para relacionar duas (ou uma, no caso de `not`) expressões relacionais.
+
+#### Operadores
+
+- `&` ou `and`
+- `|` ou `or`
+- `!` ou `not`
+
+##### and
+
+Devolve `True` quando ambas as premissas são verdadeiras.
+Devolve `False` se uma ou mais premissas forem falsas.
+
+##### or
+
+Devolve `True` quando pelomenos uma das premissas é verdadeira.
+Devolve `False` quando ambas as premissas são falsas.
+
+##### not
+
+Devolve `True` quando a premissa é falsa.
+Devolve `False` quando a premissa é verdadeira.
+
