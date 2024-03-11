@@ -52,3 +52,22 @@ Nessas duas tentativas de conversão, eu tentei transformar uma string que não 
 
 Um dos métodos de realizar a entrada de dados em Python é usando a função `input()`. Ao usar essa função, quando o programa se deparar com ela durante a execução, ele vai permitir que o usuário digite um valor qualquer para ser armazenado na variável que está designada no código-fonte.
 Como mencionado alguns parágrafos acima, se não for convertido corretamente, qualquer dado que o usuário digitar será armazenado como uma string.
+Para usar a função `input()`, basta usar a sintaxe abaixo:
+
+```python
+input("Mensagem a ser mostrada ao usuário.")
+
+# Exemplos
+nota1 = input("Digite a primeira nota: ")
+
+nome = input("Digite o seu nome: ")
+
+idade = input("Digite a sua idade: ")
+
+# Exemplos com conversão de tipos
+nota1 = float(input("Digite a primeira nota:"))
+
+nome = str(input("Digite o seu nome:"))
+
+idade = int(input("Digite a sua idade: "))
+```
