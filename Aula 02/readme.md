@@ -151,6 +151,8 @@ if <condição>:
 <contiuação do código>
 ```
 
+> Observação: Nos exemplos eu encapsulei as condições entre parênteses, porém não é obrigatório, o Python entende tanto `if a > b` quanto `if (a > b)`
+
 Exemplo usando Python
 
 ```python
