@@ -397,7 +397,7 @@ Tabuada do 10
 Observe mais um exemplo, onde usamos dois laços de repetição para desenhar um retângulo:
 
 ```python
-# Desenhar um triângulo
+# Desenhar um retângulo 
 
 width = int(input("Digite a largura do retângulo: "))
 height = int(input("Digite a altura do retângulo: "))
