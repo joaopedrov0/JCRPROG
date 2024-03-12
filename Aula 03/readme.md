@@ -146,3 +146,38 @@ print(list(range(0, 10)))
 
 # Saída: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
+
+Ainda é possível acrescentar um terceiro argumento (diferente de 0) que representa o intervalo entre os números que serão incluidos na lista.
+
+Observe os exemplos a seguir
+
+```python
+print(list(range(5, 20))) # Retorna [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+print(list(range(5, 20, 1))) # Retorna [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+print(list(range(5, 20, 2))) # Retorna [5, 7, 9, 11, 13, 15, 17, 19]
+print(list(range(5, 20, 3))) # Retorna [5, 8, 11, 14, 17]
+```
+
+#### Usando `for` com `range()`
+
+É possível usar a função `range()` para gerar um iterador para a estrutura `for`.
+
+Observe o exemplo a seguir:
+
+```python
+for i in range(0, 5):
+    print(i)
+```
+
+O código anterior tem a seguinte saída:
+
+```
+0
+1
+2
+3
+4
+```
+
+Observe que antes nós usávamos uma lista criada anteriormente para iterar usando o `for`.
+Essa estrutura, porém, não é restrita a iteração de listas, você pode usar ela com usos semelhantes ao laço `while`, agora criando um iterador com a função `range`.
