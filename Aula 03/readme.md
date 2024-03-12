@@ -274,6 +274,7 @@ Observe o exemplo abaixo:
 # Programa para exibir uma tabuada de multiplicação até o 10
 
 for i1 in range(1, 11):
+    print("Tabuada do " + str(i1))
     for i2 in range(1, 11):
         print(str(i1) + " * " + str(i2) + " = " + str(i1 * i2))
 ```
@@ -281,6 +282,7 @@ for i1 in range(1, 11):
 O código anterior tem a seguinte saída:
 
 ```
+Tabuada do 1
 1 * 1 = 1
 1 * 2 = 2
 1 * 3 = 3
@@ -291,6 +293,7 @@ O código anterior tem a seguinte saída:
 1 * 8 = 8
 1 * 9 = 9
 1 * 10 = 10
+Tabuada do 2
 2 * 1 = 2
 2 * 2 = 4
 2 * 3 = 6
@@ -301,6 +304,7 @@ O código anterior tem a seguinte saída:
 2 * 8 = 16
 2 * 9 = 18
 2 * 10 = 20
+Tabuada do 3
 3 * 1 = 3
 3 * 2 = 6
 3 * 3 = 9
@@ -311,6 +315,7 @@ O código anterior tem a seguinte saída:
 3 * 8 = 24
 3 * 9 = 27
 3 * 10 = 30
+Tabuada do 4
 4 * 1 = 4
 4 * 2 = 8
 4 * 3 = 12
@@ -321,6 +326,7 @@ O código anterior tem a seguinte saída:
 4 * 8 = 32
 4 * 9 = 36
 4 * 10 = 40
+Tabuada do 5
 5 * 1 = 5
 5 * 2 = 10
 5 * 3 = 15
@@ -331,6 +337,7 @@ O código anterior tem a seguinte saída:
 5 * 8 = 40
 5 * 9 = 45
 5 * 10 = 50
+Tabuada do 6
 6 * 1 = 6
 6 * 2 = 12
 6 * 3 = 18
@@ -341,6 +348,7 @@ O código anterior tem a seguinte saída:
 6 * 8 = 48
 6 * 9 = 54
 6 * 10 = 60
+Tabuada do 7
 7 * 1 = 7
 7 * 2 = 14
 7 * 3 = 21
@@ -351,6 +359,7 @@ O código anterior tem a seguinte saída:
 7 * 8 = 56
 7 * 9 = 63
 7 * 10 = 70
+Tabuada do 8
 8 * 1 = 8
 8 * 2 = 16
 8 * 3 = 24
@@ -361,6 +370,7 @@ O código anterior tem a seguinte saída:
 8 * 8 = 64
 8 * 9 = 72
 8 * 10 = 80
+Tabuada do 9
 9 * 1 = 9
 9 * 2 = 18
 9 * 3 = 27
@@ -371,6 +381,7 @@ O código anterior tem a seguinte saída:
 9 * 8 = 72
 9 * 9 = 81
 9 * 10 = 90
+Tabuada do 10
 10 * 1 = 10
 10 * 2 = 20
 10 * 3 = 30
@@ -381,4 +392,38 @@ O código anterior tem a seguinte saída:
 10 * 8 = 80
 10 * 9 = 90
 10 * 10 = 100
+```
+
+Observe mais um exemplo, onde usamos dois laços de repetição para desenhar um retângulo:
+
+```python
+# Desenhar um triângulo
+
+width = int(input("Digite a largura do retângulo: "))
+height = int(input("Digite a altura do retângulo: "))
+
+for i in range(1, height + 1):
+    for j in range(1, width + 1):
+        print("#", end="")
+    print()
+```
+
+Observe duas saídas de teste do código anterior:
+
+```
+Digite a largura do retângulo: 4
+Digite a altura do retângulo: 5
+####
+####
+####
+####
+####
+```
+
+```
+Digite a largura do retângulo: 25
+Digite a altura do retângulo: 3
+#########################
+#########################
+#########################
 ```
