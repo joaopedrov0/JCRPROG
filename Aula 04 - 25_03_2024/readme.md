@@ -141,7 +141,11 @@ print(numbers)
 
 ### Alterando um trecho da lista
 
+*Pendente...*
+
 ### Verificando inclusão de elemento
+
+*Pendente...*
 
 ### Adicionando elementos
 
@@ -256,6 +260,8 @@ Como resultado, o método retorna o elemento removido, e cada elemento desde a p
 O método `count` recebe como parâmetro um elemento, e ele retorna a quantidade de ocorrências desse elemento nem uma lista.
 
 ### Criando listas de forma compacta
+
+*Pendente...*
 
 ### Invertendo a ordem dos elementos de uma lista
 
