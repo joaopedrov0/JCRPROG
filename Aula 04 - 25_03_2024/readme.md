@@ -141,11 +141,28 @@ print(numbers)
 
 ### Alterando um trecho da lista
 
-*Pendente...*
+É possível usar a mesma lógica da seleção de intervalos para alterar um trecho de uma lista, observe o exemplo a seguir:
+```python
+nums = [0, 1, 2, 3, 4, 5]
+nums[2:4] = ["A", "B"]
+print(nums) # Retorna [0, 1, 'A', 'B', 4, 5]
+nums[2:4] = [8, 8, 8]
+print(nums) # Retorna [0, 1, 8, 8, 8, 4, 5]
+nums[4:6] = []
+print(nums) # Retorna [0, 1, 8, 8, 5]
+```
 
 ### Verificando inclusão de elemento
 
-*Pendente...*
+Para verificar se um item está incluido em uma lista, é possível usar o verificador de inclusão `in`. O operador retorna um valor booleano que depende de se o elemento está ou não na lista. Observe o exemplo a seguir:
+
+```python
+numList = [1, 2, 3, 4, 5]
+print(2 in numList) # Retorna True
+print(5 in numList) # Retorna True
+print(7 in numList) # Retorna False
+print("5" in numList) # Retorna False
+```
 
 ### Adicionando elementos
 
