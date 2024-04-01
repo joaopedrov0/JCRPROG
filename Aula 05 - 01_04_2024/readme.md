@@ -117,3 +117,34 @@ message = ["Hello", "World"]
 print(" ".join(message)) # Retorna 'Hello World'
 ```
 
+### Função `replace()`
+
+A função `replace()` busca uma string dentro de outra, e quando encontra, substitui a string encontrada por outra. Ela recebe como parâmetro duas strings, a que será buscada e substituida e a que vai substituir. Essa função altera todas as ocorrências da string definida, não apenas a primeira ou a última.
+
+## Formatação do texto da string
+
+### Método `capitalize()`
+
+Garante que a primeira letra da string será maiúscula.
+
+### Método `lower()`
+
+Deixa todas as letras da string minúsculas
+
+### Método `upper()`
+
+Deixa todas as letras da string maiúsculas
+
+## Verificação com string
+
+### Método `isnumeric()`
+
+Devolve `True` se os caracteres da string forem numéricos e `False` caso isso não se aplique a todos os caracteres.
+
+### Método `isalpha()`
+
+Devolve `True` se os caracteres da string forem letras e `False` caso isso não se aplique a todos os caracteres.
+
+### Método `isalnum()`
+
+Devolve `True` se os caracteres da string forem numéricos ou letras, e devolve `False` caso isso não se aplique a todos os caracteres.
