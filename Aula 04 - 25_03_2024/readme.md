@@ -122,7 +122,7 @@ Observe o seguinte exemplo de uso:
 
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(list[1:4:1]) # Retorna [2, 3, 4]
+print(numbers[1:4:1]) # Retorna [2, 3, 4]
 ```
 
 ### Alterando um elemento
