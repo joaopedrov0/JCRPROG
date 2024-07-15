@@ -76,7 +76,66 @@ O retorno, ou `return` faz com que a função encerre, retornando ou não um val
 
 Por exemplo, caso você passe como argumento da função `print()` umachamada de função que retorna uma string, a função chamada vai passar a string para o local onde foi chamada, ou seja, como argumento da função `print()`, e ela exibirá o conteúdo da string.
 
+
 ## Função `main()`
 
 Existe uma prática comum de utilizar uma função `main()` para englobar todo o código (exceto definições de funções). A utilidade disso é ter um código mais organizado, além de não ter problema com ordem de definição das funções, já que estão sendo definidas fora do escopo da função `main()`
 
+# Objetos Multidimensionais
+
+## Definição
+
+Objetos multidimensionais são, de grosso modo, listas de listas.
+
+Um exemplo de objeto multidimensional é uma matriz, que é uma lista de listas na qual as listas "internas" tem todas o mesmo tamanho.
+
+Observe os exemplos abaixo
+
+```python
+# Objeto multidimensional que não é uma matriz
+obj = [
+    [1, 2, 3],
+    [4, 5, 6, 7],
+    [8, 9]
+]
+
+# Matriz
+matrix = [
+    [11, 12, 13],
+    [21, 22, 23],
+    [31, 32, 33],
+]
+
+```
+
+## Copiando objetos multidimensionais
+
+Copiar objetos multidimensionais não é simples como em unidimensionais, usar o método `.copy()` não basta. Para isso deve-se usar o método de cópia individualmente em cada linha do objeto, aninhando laços de repetição para as diferentes dimensões do objeto.
+
+Observe o exemplo abaixo de uma cópia feita de forma incorreta:
+
+```python
+a = [
+    [1, 2],
+    [3, 4]
+]
+
+b = a.copy()
+```
+
+Nesse exemplo, `b` realmente vai armazenar uma duplicata da matriz de `a`, porém, ela não será independente como se espera quando é copiada uma lista.
+
+Para que isso ocorra, deve-se copiar linha a linha, dessa forma:
+
+```python
+a = [
+    [1, 2],
+    [3, 4]
+]
+
+b = [line.copy() for line in a]
+```
+
+Dessa forma, teremos uma cópia independente da matriz.
+
+Caso você queira copiar um objeto de três ou mais dimensões, basta repetir esse processo aninhando laços de repetição para cada plano.
