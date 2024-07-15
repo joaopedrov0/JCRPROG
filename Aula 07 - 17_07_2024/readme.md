@@ -71,7 +71,12 @@ Diferente de variáveis simples, a passagem de listas como argumento de funçõe
 Na prática isso altera a forma que você trata listas dentro de funções, caso você queira manipular uma lista dentro de uma função sem alterar o valor original, você precisa realizar uma **cópia explícita**, ou seja, **independente**.
 
 ## Retorno
-...
+
+O retorno, ou `return` faz com que a função encerre, retornando ou não um valor para o local onde foi chamada.
+
+Por exemplo, caso você passe como argumento da função `print()` umachamada de função que retorna uma string, a função chamada vai passar a string para o local onde foi chamada, ou seja, como argumento da função `print()`, e ela exibirá o conteúdo da string.
 
 ## Função `main()`
-...
+
+Existe uma prática comum de utilizar uma função `main()` para englobar todo o código (exceto definições de funções). A utilidade disso é ter um código mais organizado, além de não ter problema com ordem de definição das funções, já que estão sendo definidas fora do escopo da função `main()`
+
